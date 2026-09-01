@@ -18,7 +18,7 @@ Write-Host "  ANTIGRAVITY (AGY) SKILLS INSTALLER FOR WINDOWS   " -ForegroundColo
 Write-Host "===================================================" -ForegroundColor Cyan
 Write-Host ""
 
-$skills = @("diagnose-crash", "windows")
+$skills = @("diagnose-crash", "windows", "vn-officecli")
 $tempFolder = $null
 
 # Determine source directory
@@ -85,6 +85,7 @@ try {
     Write-Host "Installed skills:" -ForegroundColor White
     Write-Host "  1. diagnose-crash : Diagnose Windows app crashes, WER, minidumps, event logs" -ForegroundColor Cyan
     Write-Host "  2. windows        : Windows 11 desktop customization, terminal, winget, theming" -ForegroundColor Cyan
+    Write-Host "  3. vn-officecli   : Soan thao To Trinh, Van ban hanh chinh VN & bo Office (.docx, .xlsx, .pptx)" -ForegroundColor Cyan
     Write-Host ""
     Write-Host "Run 'agy' in your terminal and type '/skills' to verify." -ForegroundColor Yellow
     Write-Host ""
